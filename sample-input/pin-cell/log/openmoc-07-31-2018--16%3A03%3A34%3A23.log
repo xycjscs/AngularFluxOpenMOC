@@ -1,0 +1,283 @@
+Current local time and date: Tue Jul 31 16:03:34 2018
+[  NORMAL ]  Importing materials data from HDF5...
+[  NORMAL ]  Creating surfaces...
+[  NORMAL ]  Creating cells...
+[  NORMAL ]  Creating universes...
+[  NORMAL ]  Creating geometry...
+[  NORMAL ]  Initializing the track generator...
+[  NORMAL ]  Ray tracing for track segmentation...
+[  NORMAL ]  Dumping tracks to file...
+[  NORMAL ]  Computing the eigenvalue...
+[  NORMAL ]  Iteration 0:	k_eff = 0.836611	res = 0.000E+00
+[  NORMAL ]  Iteration 1:	k_eff = 0.775770	res = 1.634E-01
+[  NORMAL ]  Iteration 2:	k_eff = 0.780871	res = 7.272E-02
+[  NORMAL ]  Iteration 3:	k_eff = 0.788759	res = 6.575E-03
+[  NORMAL ]  Iteration 4:	k_eff = 0.793807	res = 1.010E-02
+[  NORMAL ]  Iteration 5:	k_eff = 0.795638	res = 6.400E-03
+[  NORMAL ]  Iteration 6:	k_eff = 0.795235	res = 2.307E-03
+[  NORMAL ]  Iteration 7:	k_eff = 0.793488	res = 5.070E-04
+[  NORMAL ]  Iteration 8:	k_eff = 0.791120	res = 2.197E-03
+[  NORMAL ]  Iteration 9:	k_eff = 0.788660	res = 2.983E-03
+[  NORMAL ]  Iteration 10:	k_eff = 0.786319	res = 3.110E-03
+[  NORMAL ]  Iteration 11:	k_eff = 0.784464	res = 2.968E-03
+[  NORMAL ]  Iteration 12:	k_eff = 0.783175	res = 2.359E-03
+[  NORMAL ]  Iteration 13:	k_eff = 0.782559	res = 1.643E-03
+[  NORMAL ]  Iteration 14:	k_eff = 0.782644	res = 7.865E-04
+[  NORMAL ]  Iteration 15:	k_eff = 0.783418	res = 1.075E-04
+[  NORMAL ]  Iteration 16:	k_eff = 0.784857	res = 9.896E-04
+[  NORMAL ]  Iteration 17:	k_eff = 0.786910	res = 1.837E-03
+[  NORMAL ]  Iteration 18:	k_eff = 0.789521	res = 2.615E-03
+[  NORMAL ]  Iteration 19:	k_eff = 0.792624	res = 3.318E-03
+[  NORMAL ]  Iteration 20:	k_eff = 0.796160	res = 3.931E-03
+[  NORMAL ]  Iteration 21:	k_eff = 0.800064	res = 4.461E-03
+[  NORMAL ]  Iteration 22:	k_eff = 0.804273	res = 4.903E-03
+[  NORMAL ]  Iteration 23:	k_eff = 0.808733	res = 5.261E-03
+[  NORMAL ]  Iteration 24:	k_eff = 0.813392	res = 5.546E-03
+[  NORMAL ]  Iteration 25:	k_eff = 0.818205	res = 5.761E-03
+[  NORMAL ]  Iteration 26:	k_eff = 0.823133	res = 5.918E-03
+[  NORMAL ]  Iteration 27:	k_eff = 0.828136	res = 6.022E-03
+[  NORMAL ]  Iteration 28:	k_eff = 0.833186	res = 6.079E-03
+[  NORMAL ]  Iteration 29:	k_eff = 0.838255	res = 6.098E-03
+[  NORMAL ]  Iteration 30:	k_eff = 0.843318	res = 6.083E-03
+[  NORMAL ]  Iteration 31:	k_eff = 0.848357	res = 6.040E-03
+[  NORMAL ]  Iteration 32:	k_eff = 0.853354	res = 5.976E-03
+[  NORMAL ]  Iteration 33:	k_eff = 0.858296	res = 5.890E-03
+[  NORMAL ]  Iteration 34:	k_eff = 0.863173	res = 5.791E-03
+[  NORMAL ]  Iteration 35:	k_eff = 0.867975	res = 5.682E-03
+[  NORMAL ]  Iteration 36:	k_eff = 0.872694	res = 5.563E-03
+[  NORMAL ]  Iteration 37:	k_eff = 0.877324	res = 5.437E-03
+[  NORMAL ]  Iteration 38:	k_eff = 0.881863	res = 5.306E-03
+[  NORMAL ]  Iteration 39:	k_eff = 0.886304	res = 5.173E-03
+[  NORMAL ]  Iteration 40:	k_eff = 0.890648	res = 5.036E-03
+[  NORMAL ]  Iteration 41:	k_eff = 0.894892	res = 4.901E-03
+[  NORMAL ]  Iteration 42:	k_eff = 0.899037	res = 4.766E-03
+[  NORMAL ]  Iteration 43:	k_eff = 0.903080	res = 4.631E-03
+[  NORMAL ]  Iteration 44:	k_eff = 0.907023	res = 4.498E-03
+[  NORMAL ]  Iteration 45:	k_eff = 0.910865	res = 4.366E-03
+[  NORMAL ]  Iteration 46:	k_eff = 0.914610	res = 4.236E-03
+[  NORMAL ]  Iteration 47:	k_eff = 0.918257	res = 4.111E-03
+[  NORMAL ]  Iteration 48:	k_eff = 0.921809	res = 3.988E-03
+[  NORMAL ]  Iteration 49:	k_eff = 0.925265	res = 3.868E-03
+[  NORMAL ]  Iteration 50:	k_eff = 0.928630	res = 3.750E-03
+[  NORMAL ]  Iteration 51:	k_eff = 0.931904	res = 3.637E-03
+[  NORMAL ]  Iteration 52:	k_eff = 0.935089	res = 3.525E-03
+[  NORMAL ]  Iteration 53:	k_eff = 0.938186	res = 3.418E-03
+[  NORMAL ]  Iteration 54:	k_eff = 0.941199	res = 3.312E-03
+[  NORMAL ]  Iteration 55:	k_eff = 0.944130	res = 3.212E-03
+[  NORMAL ]  Iteration 56:	k_eff = 0.946978	res = 3.115E-03
+[  NORMAL ]  Iteration 57:	k_eff = 0.949750	res = 3.017E-03
+[  NORMAL ]  Iteration 58:	k_eff = 0.952442	res = 2.927E-03
+[  NORMAL ]  Iteration 59:	k_eff = 0.955062	res = 2.834E-03
+[  NORMAL ]  Iteration 60:	k_eff = 0.957608	res = 2.750E-03
+[  NORMAL ]  Iteration 61:	k_eff = 0.960083	res = 2.667E-03
+[  NORMAL ]  Iteration 62:	k_eff = 0.962489	res = 2.584E-03
+[  NORMAL ]  Iteration 63:	k_eff = 0.964829	res = 2.505E-03
+[  NORMAL ]  Iteration 64:	k_eff = 0.967101	res = 2.431E-03
+[  NORMAL ]  Iteration 65:	k_eff = 0.969311	res = 2.355E-03
+[  NORMAL ]  Iteration 66:	k_eff = 0.971459	res = 2.286E-03
+[  NORMAL ]  Iteration 67:	k_eff = 0.973546	res = 2.216E-03
+[  NORMAL ]  Iteration 68:	k_eff = 0.975575	res = 2.148E-03
+[  NORMAL ]  Iteration 69:	k_eff = 0.977547	res = 2.085E-03
+[  NORMAL ]  Iteration 70:	k_eff = 0.979465	res = 2.021E-03
+[  NORMAL ]  Iteration 71:	k_eff = 0.981327	res = 1.962E-03
+[  NORMAL ]  Iteration 72:	k_eff = 0.983138	res = 1.900E-03
+[  NORMAL ]  Iteration 73:	k_eff = 0.984897	res = 1.846E-03
+[  NORMAL ]  Iteration 74:	k_eff = 0.986609	res = 1.789E-03
+[  NORMAL ]  Iteration 75:	k_eff = 0.988270	res = 1.738E-03
+[  NORMAL ]  Iteration 76:	k_eff = 0.989886	res = 1.683E-03
+[  NORMAL ]  Iteration 77:	k_eff = 0.991457	res = 1.635E-03
+[  NORMAL ]  Iteration 78:	k_eff = 0.992981	res = 1.587E-03
+[  NORMAL ]  Iteration 79:	k_eff = 0.994466	res = 1.538E-03
+[  NORMAL ]  Iteration 80:	k_eff = 0.995907	res = 1.495E-03
+[  NORMAL ]  Iteration 81:	k_eff = 0.997306	res = 1.449E-03
+[  NORMAL ]  Iteration 82:	k_eff = 0.998669	res = 1.404E-03
+[  NORMAL ]  Iteration 83:	k_eff = 0.999993	res = 1.367E-03
+[  NORMAL ]  Iteration 84:	k_eff = 1.001277	res = 1.326E-03
+[  NORMAL ]  Iteration 85:	k_eff = 1.002527	res = 1.284E-03
+[  NORMAL ]  Iteration 86:	k_eff = 1.003742	res = 1.248E-03
+[  NORMAL ]  Iteration 87:	k_eff = 1.004922	res = 1.212E-03
+[  NORMAL ]  Iteration 88:	k_eff = 1.006070	res = 1.175E-03
+[  NORMAL ]  Iteration 89:	k_eff = 1.007186	res = 1.142E-03
+[  NORMAL ]  Iteration 90:	k_eff = 1.008269	res = 1.109E-03
+[  NORMAL ]  Iteration 91:	k_eff = 1.009321	res = 1.075E-03
+[  NORMAL ]  Iteration 92:	k_eff = 1.010344	res = 1.043E-03
+[  NORMAL ]  Iteration 93:	k_eff = 1.011340	res = 1.014E-03
+[  NORMAL ]  Iteration 94:	k_eff = 1.012307	res = 9.862E-04
+[  NORMAL ]  Iteration 95:	k_eff = 1.013246	res = 9.557E-04
+[  NORMAL ]  Iteration 96:	k_eff = 1.014159	res = 9.277E-04
+[  NORMAL ]  Iteration 97:	k_eff = 1.015049	res = 9.011E-04
+[  NORMAL ]  Iteration 98:	k_eff = 1.015910	res = 8.769E-04
+[  NORMAL ]  Iteration 99:	k_eff = 1.016749	res = 8.490E-04
+[  NORMAL ]  Iteration 100:	k_eff = 1.017564	res = 8.254E-04
+[  NORMAL ]  Iteration 101:	k_eff = 1.018355	res = 8.016E-04
+[  NORMAL ]  Iteration 102:	k_eff = 1.019126	res = 7.770E-04
+[  NORMAL ]  Iteration 103:	k_eff = 1.019872	res = 7.573E-04
+[  NORMAL ]  Iteration 104:	k_eff = 1.020598	res = 7.324E-04
+[  NORMAL ]  Iteration 105:	k_eff = 1.021303	res = 7.113E-04
+[  NORMAL ]  Iteration 106:	k_eff = 1.021989	res = 6.908E-04
+[  NORMAL ]  Iteration 107:	k_eff = 1.022659	res = 6.720E-04
+[  NORMAL ]  Iteration 108:	k_eff = 1.023311	res = 6.557E-04
+[  NORMAL ]  Iteration 109:	k_eff = 1.023940	res = 6.370E-04
+[  NORMAL ]  Iteration 110:	k_eff = 1.024551	res = 6.146E-04
+[  NORMAL ]  Iteration 111:	k_eff = 1.025144	res = 5.972E-04
+[  NORMAL ]  Iteration 112:	k_eff = 1.025721	res = 5.784E-04
+[  NORMAL ]  Iteration 113:	k_eff = 1.026284	res = 5.635E-04
+[  NORMAL ]  Iteration 114:	k_eff = 1.026831	res = 5.486E-04
+[  NORMAL ]  Iteration 115:	k_eff = 1.027367	res = 5.329E-04
+[  NORMAL ]  Iteration 116:	k_eff = 1.027884	res = 5.217E-04
+[  NORMAL ]  Iteration 117:	k_eff = 1.028386	res = 5.037E-04
+[  NORMAL ]  Iteration 118:	k_eff = 1.028873	res = 4.881E-04
+[  NORMAL ]  Iteration 119:	k_eff = 1.029346	res = 4.741E-04
+[  NORMAL ]  Iteration 120:	k_eff = 1.029803	res = 4.588E-04
+[  NORMAL ]  Iteration 121:	k_eff = 1.030249	res = 4.445E-04
+[  NORMAL ]  Iteration 122:	k_eff = 1.030683	res = 4.329E-04
+[  NORMAL ]  Iteration 123:	k_eff = 1.031105	res = 4.215E-04
+[  NORMAL ]  Iteration 124:	k_eff = 1.031517	res = 4.093E-04
+[  NORMAL ]  Iteration 125:	k_eff = 1.031918	res = 3.994E-04
+[  NORMAL ]  Iteration 126:	k_eff = 1.032306	res = 3.885E-04
+[  NORMAL ]  Iteration 127:	k_eff = 1.032684	res = 3.764E-04
+[  NORMAL ]  Iteration 128:	k_eff = 1.033051	res = 3.660E-04
+[  NORMAL ]  Iteration 129:	k_eff = 1.033408	res = 3.556E-04
+[  NORMAL ]  Iteration 130:	k_eff = 1.033755	res = 3.451E-04
+[  NORMAL ]  Iteration 131:	k_eff = 1.034089	res = 3.360E-04
+[  NORMAL ]  Iteration 132:	k_eff = 1.034415	res = 3.239E-04
+[  NORMAL ]  Iteration 133:	k_eff = 1.034734	res = 3.149E-04
+[  NORMAL ]  Iteration 134:	k_eff = 1.035041	res = 3.080E-04
+[  NORMAL ]  Iteration 135:	k_eff = 1.035341	res = 2.968E-04
+[  NORMAL ]  Iteration 136:	k_eff = 1.035633	res = 2.899E-04
+[  NORMAL ]  Iteration 137:	k_eff = 1.035917	res = 2.824E-04
+[  NORMAL ]  Iteration 138:	k_eff = 1.036193	res = 2.744E-04
+[  NORMAL ]  Iteration 139:	k_eff = 1.036459	res = 2.663E-04
+[  NORMAL ]  Iteration 140:	k_eff = 1.036719	res = 2.570E-04
+[  NORMAL ]  Iteration 141:	k_eff = 1.036972	res = 2.509E-04
+[  NORMAL ]  Iteration 142:	k_eff = 1.037218	res = 2.434E-04
+[  NORMAL ]  Iteration 143:	k_eff = 1.037457	res = 2.377E-04
+[  NORMAL ]  Iteration 144:	k_eff = 1.037690	res = 2.303E-04
+[  NORMAL ]  Iteration 145:	k_eff = 1.037916	res = 2.244E-04
+[  NORMAL ]  Iteration 146:	k_eff = 1.038136	res = 2.175E-04
+[  NORMAL ]  Iteration 147:	k_eff = 1.038348	res = 2.117E-04
+[  NORMAL ]  Iteration 148:	k_eff = 1.038555	res = 2.046E-04
+[  NORMAL ]  Iteration 149:	k_eff = 1.038757	res = 1.993E-04
+[  NORMAL ]  Iteration 150:	k_eff = 1.038953	res = 1.940E-04
+[  NORMAL ]  Iteration 151:	k_eff = 1.039144	res = 1.890E-04
+[  NORMAL ]  Iteration 152:	k_eff = 1.039328	res = 1.838E-04
+[  NORMAL ]  Iteration 153:	k_eff = 1.039508	res = 1.769E-04
+[  NORMAL ]  Iteration 154:	k_eff = 1.039682	res = 1.730E-04
+[  NORMAL ]  Iteration 155:	k_eff = 1.039852	res = 1.675E-04
+[  NORMAL ]  Iteration 156:	k_eff = 1.040019	res = 1.631E-04
+[  NORMAL ]  Iteration 157:	k_eff = 1.040179	res = 1.605E-04
+[  NORMAL ]  Iteration 158:	k_eff = 1.040335	res = 1.541E-04
+[  NORMAL ]  Iteration 159:	k_eff = 1.040486	res = 1.500E-04
+[  NORMAL ]  Iteration 160:	k_eff = 1.040632	res = 1.455E-04
+[  NORMAL ]  Iteration 161:	k_eff = 1.040775	res = 1.403E-04
+[  NORMAL ]  Iteration 162:	k_eff = 1.040912	res = 1.368E-04
+[  NORMAL ]  Iteration 163:	k_eff = 1.041048	res = 1.324E-04
+[  NORMAL ]  Iteration 164:	k_eff = 1.041178	res = 1.301E-04
+[  NORMAL ]  Iteration 165:	k_eff = 1.041305	res = 1.253E-04
+[  NORMAL ]  Iteration 166:	k_eff = 1.041428	res = 1.219E-04
+[  NORMAL ]  Iteration 167:	k_eff = 1.041548	res = 1.180E-04
+[  NORMAL ]  Iteration 168:	k_eff = 1.041666	res = 1.156E-04
+[  NORMAL ]  Iteration 169:	k_eff = 1.041779	res = 1.129E-04
+[  NORMAL ]  Iteration 170:	k_eff = 1.041888	res = 1.084E-04
+[  NORMAL ]  Iteration 171:	k_eff = 1.041995	res = 1.054E-04
+[  NORMAL ]  Iteration 172:	k_eff = 1.042099	res = 1.023E-04
+[  NORMAL ]  Iteration 173:	k_eff = 1.042200	res = 9.951E-05
+[  NORMAL ]  Iteration 174:	k_eff = 1.042297	res = 9.684E-05
+[  NORMAL ]  Iteration 175:	k_eff = 1.042393	res = 9.377E-05
+[  NORMAL ]  Iteration 176:	k_eff = 1.042485	res = 9.132E-05
+[  NORMAL ]  Iteration 177:	k_eff = 1.042574	res = 8.861E-05
+[  NORMAL ]  Iteration 178:	k_eff = 1.042661	res = 8.578E-05
+[  NORMAL ]  Iteration 179:	k_eff = 1.042745	res = 8.325E-05
+[  NORMAL ]  Iteration 180:	k_eff = 1.042828	res = 8.102E-05
+[  NORMAL ]  Iteration 181:	k_eff = 1.042910	res = 7.925E-05
+[  NORMAL ]  Iteration 182:	k_eff = 1.042989	res = 7.823E-05
+[  NORMAL ]  Iteration 183:	k_eff = 1.043066	res = 7.604E-05
+[  NORMAL ]  Iteration 184:	k_eff = 1.043141	res = 7.424E-05
+[  NORMAL ]  Iteration 185:	k_eff = 1.043214	res = 7.164E-05
+[  NORMAL ]  Iteration 186:	k_eff = 1.043284	res = 6.999E-05
+[  NORMAL ]  Iteration 187:	k_eff = 1.043353	res = 6.783E-05
+[  NORMAL ]  Iteration 188:	k_eff = 1.043420	res = 6.620E-05
+[  NORMAL ]  Iteration 189:	k_eff = 1.043484	res = 6.359E-05
+[  NORMAL ]  Iteration 190:	k_eff = 1.043547	res = 6.172E-05
+[  NORMAL ]  Iteration 191:	k_eff = 1.043608	res = 6.038E-05
+[  NORMAL ]  Iteration 192:	k_eff = 1.043668	res = 5.877E-05
+[  NORMAL ]  Iteration 193:	k_eff = 1.043727	res = 5.736E-05
+[  NORMAL ]  Iteration 194:	k_eff = 1.043783	res = 5.589E-05
+[  NORMAL ]  Iteration 195:	k_eff = 1.043837	res = 5.369E-05
+[  NORMAL ]  Iteration 196:	k_eff = 1.043890	res = 5.217E-05
+[  NORMAL ]  Iteration 197:	k_eff = 1.043941	res = 5.052E-05
+[  NORMAL ]  Iteration 198:	k_eff = 1.043991	res = 4.908E-05
+[  NORMAL ]  Iteration 199:	k_eff = 1.044041	res = 4.784E-05
+[  NORMAL ]  Iteration 200:	k_eff = 1.044089	res = 4.754E-05
+[  NORMAL ]  Iteration 201:	k_eff = 1.044135	res = 4.587E-05
+[  NORMAL ]  Iteration 202:	k_eff = 1.044180	res = 4.483E-05
+[  NORMAL ]  Iteration 203:	k_eff = 1.044223	res = 4.287E-05
+[  NORMAL ]  Iteration 204:	k_eff = 1.044266	res = 4.136E-05
+[  NORMAL ]  Iteration 205:	k_eff = 1.044308	res = 4.022E-05
+[  NORMAL ]  Iteration 206:	k_eff = 1.044348	res = 4.030E-05
+[  NORMAL ]  Iteration 207:	k_eff = 1.044388	res = 3.898E-05
+[  NORMAL ]  Iteration 208:	k_eff = 1.044426	res = 3.824E-05
+[  NORMAL ]  Iteration 209:	k_eff = 1.044464	res = 3.658E-05
+[  NORMAL ]  Iteration 210:	k_eff = 1.044500	res = 3.574E-05
+[  NORMAL ]  Iteration 211:	k_eff = 1.044535	res = 3.483E-05
+[  NORMAL ]  Iteration 212:	k_eff = 1.044569	res = 3.359E-05
+[  NORMAL ]  Iteration 213:	k_eff = 1.044602	res = 3.251E-05
+[  NORMAL ]  Iteration 214:	k_eff = 1.044634	res = 3.127E-05
+[  NORMAL ]  Iteration 215:	k_eff = 1.044665	res = 3.058E-05
+[  NORMAL ]  Iteration 216:	k_eff = 1.044696	res = 3.007E-05
+[  NORMAL ]  Iteration 217:	k_eff = 1.044726	res = 2.904E-05
+[  NORMAL ]  Iteration 218:	k_eff = 1.044755	res = 2.902E-05
+[  NORMAL ]  Iteration 219:	k_eff = 1.044783	res = 2.790E-05
+[  NORMAL ]  Iteration 220:	k_eff = 1.044810	res = 2.679E-05
+[  NORMAL ]  Iteration 221:	k_eff = 1.044837	res = 2.606E-05
+[  NORMAL ]  Iteration 222:	k_eff = 1.044862	res = 2.561E-05
+[  NORMAL ]  Iteration 223:	k_eff = 1.044887	res = 2.408E-05
+[  NORMAL ]  Iteration 224:	k_eff = 1.044911	res = 2.347E-05
+[  NORMAL ]  Iteration 225:	k_eff = 1.044933	res = 2.251E-05
+[  NORMAL ]  Iteration 226:	k_eff = 1.044956	res = 2.203E-05
+[  NORMAL ]  Iteration 227:	k_eff = 1.044978	res = 2.128E-05
+[  NORMAL ]  Iteration 228:	k_eff = 1.044999	res = 2.119E-05
+[  NORMAL ]  Iteration 229:	k_eff = 1.045020	res = 2.053E-05
+[  NORMAL ]  Iteration 230:	k_eff = 1.045040	res = 1.984E-05
+[  NORMAL ]  Iteration 231:	k_eff = 1.045060	res = 1.944E-05
+[  NORMAL ]  Iteration 232:	k_eff = 1.045079	res = 1.906E-05
+[  NORMAL ]  Iteration 233:	k_eff = 1.045098	res = 1.854E-05
+[  NORMAL ]  Iteration 234:	k_eff = 1.045116	res = 1.796E-05
+[  NORMAL ]  Iteration 235:	k_eff = 1.045134	res = 1.751E-05
+[  NORMAL ]  Iteration 236:	k_eff = 1.045151	res = 1.683E-05
+[  NORMAL ]  Iteration 237:	k_eff = 1.045168	res = 1.631E-05
+[  NORMAL ]  Iteration 238:	k_eff = 1.045183	res = 1.583E-05
+[  NORMAL ]  Iteration 239:	k_eff = 1.045198	res = 1.503E-05
+[  NORMAL ]  Iteration 240:	k_eff = 1.045213	res = 1.446E-05
+[  NORMAL ]  Iteration 241:	k_eff = 1.045228	res = 1.447E-05
+[  NORMAL ]  Iteration 242:	k_eff = 1.045242	res = 1.392E-05
+[  NORMAL ]  Iteration 243:	k_eff = 1.045256	res = 1.352E-05
+[  NORMAL ]  Iteration 244:	k_eff = 1.045269	res = 1.316E-05
+[  NORMAL ]  Iteration 245:	k_eff = 1.045282	res = 1.267E-05
+[  NORMAL ]  Iteration 246:	k_eff = 1.045294	res = 1.215E-05
+[  NORMAL ]  Iteration 247:	k_eff = 1.045307	res = 1.181E-05
+[  NORMAL ]  Iteration 248:	k_eff = 1.045318	res = 1.196E-05
+[  NORMAL ]  Iteration 249:	k_eff = 1.045330	res = 1.116E-05
+[  NORMAL ]  Iteration 250:	k_eff = 1.045341	res = 1.124E-05
+[  NORMAL ]  Iteration 251:	k_eff = 1.045352	res = 1.051E-05
+[  NORMAL ]  Iteration 252:	k_eff = 1.045363	res = 1.060E-05
+[  TITLE  ]  *******************************************************************
+[  TITLE  ]                         SOLVER TIMING REPORT                       
+[  TITLE  ]  *******************************************************************
+[  RESULT ]  Total time to solution...............................5.5527E+00 sec
+[  RESULT ]  Solution time per iteration..........................2.1947E-02 sec
+[  RESULT ]  Time per segment integration.........................3.3284E-08 sec
+[SEPARATOR]  -------------------------------------------------------------------
+[  RESULT ]             # tracks          # segments          # FSRs
+[SEPARATOR]  -------------------------------------------------------------------
+[  RESULT ]                8180              15700              2              
+[SEPARATOR]  -------------------------------------------------------------------
+[  NORMAL ]  Plotting data...
+[  NORMAL ]  Plotting the materials...
+[  NORMAL ]  Plotting the cells...
+[  NORMAL ]  Plotting the flat source regions...
+[  NORMAL ]  Plotting the FSR scalar fluxes...
+[  NORMAL ]  Plotting the scalar fluxes vs. energy...
+[  TITLE  ]  *******************************************************************
+[  TITLE  ]                               Finished                             
+[  TITLE  ]  *******************************************************************
