@@ -84,6 +84,12 @@ Solver::~Solver() {
     }
     delete [] _reference_partial_currents;
   }
+  if (_reference_partial_currents_length != NULL){
+    for(int s = 0; s<2*_num_surfaces; s++){
+      delete [] _reference_partial_currents_length[s];
+    }
+    delete [] _reference_partial_currents_length;
+  }
 
   if (_ongoing_partial_currents != NULL){
     for(int s = 0; s<2*_num_surfaces; s++){
@@ -812,6 +818,7 @@ void Solver::computeFlux(int max_iters, solverMode mode,
 
     /* Reset ongoing_partial_currents */
     resetOngoingPartialCurrentsArray();
+	resetOngoingPartialCurrentsLengthArray();
 
     transportSweep();
     addSourceToScalarFlux();
@@ -968,7 +975,7 @@ void Solver::computeEigenvalue(int max_iters, solverMode mode,
     log_printf(ERROR, "The Solver is unable to compute the eigenvalue "
                "since it does not contain a TrackGenerator");
 
-  log_printf(NORMAL, "Computing the eigenvalue...");
+  log_printf(DEBUG, "Computing the eigenvalue...");
 
   /* Clear all timing data from a previous simulation run */
   clearTimerSplits();
@@ -1017,6 +1024,7 @@ void Solver::computeEigenvalue(int max_iters, solverMode mode,
 
     /* Reset angular partial current array */
     resetOngoingPartialCurrentsArray();
+	resetOngoingPartialCurrentsLengthArray();
 
     normalizeFluxes();
     computeFSRSources();

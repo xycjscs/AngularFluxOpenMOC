@@ -27547,6 +27547,234 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_CPUSolver_getReferencePartialCurrentsLength(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  CPUSolver *arg1 = (CPUSolver *) 0 ;
+  int arg2 ;
+  int arg3 ;
+  int *arg4 = (int *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  void *argp4 = 0 ;
+  int res4 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  PyObject * obj3 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "cell_from",(char *) "cell_to",(char *) "index", NULL 
+  };
+  double *result = 0 ;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOOO:CPUSolver_getReferencePartialCurrentsLength",kwnames,&obj0,&obj1,&obj2,&obj3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_CPUSolver, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "CPUSolver_getReferencePartialCurrentsLength" "', argument " "1"" of type '" "CPUSolver *""'"); 
+  }
+  arg1 = reinterpret_cast< CPUSolver * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "CPUSolver_getReferencePartialCurrentsLength" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_int(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "CPUSolver_getReferencePartialCurrentsLength" "', argument " "3"" of type '" "int""'");
+  } 
+  arg3 = static_cast< int >(val3);
+  res4 = SWIG_ConvertPtr(obj3, &argp4,SWIGTYPE_p_int, 0 |  0 );
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "CPUSolver_getReferencePartialCurrentsLength" "', argument " "4"" of type '" "int *""'"); 
+  }
+  arg4 = reinterpret_cast< int * >(argp4);
+  {
+    try {
+      result = (double *)(arg1)->getReferencePartialCurrentsLength(arg2,arg3,arg4);
+    } catch (const std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_double, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_CPUSolver_getOngoingPartialCurrentLength(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  CPUSolver *arg1 = (CPUSolver *) 0 ;
+  int arg2 ;
+  int arg3 ;
+  int arg4 ;
+  int arg5 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  int val4 ;
+  int ecode4 = 0 ;
+  int val5 ;
+  int ecode5 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  PyObject * obj3 = 0 ;
+  PyObject * obj4 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "index",(char *) "group",(char *) "azim",(char *) "p", NULL 
+  };
+  double result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOOOO:CPUSolver_getOngoingPartialCurrentLength",kwnames,&obj0,&obj1,&obj2,&obj3,&obj4)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_CPUSolver, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "CPUSolver_getOngoingPartialCurrentLength" "', argument " "1"" of type '" "CPUSolver *""'"); 
+  }
+  arg1 = reinterpret_cast< CPUSolver * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "CPUSolver_getOngoingPartialCurrentLength" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_int(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "CPUSolver_getOngoingPartialCurrentLength" "', argument " "3"" of type '" "int""'");
+  } 
+  arg3 = static_cast< int >(val3);
+  ecode4 = SWIG_AsVal_int(obj3, &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "CPUSolver_getOngoingPartialCurrentLength" "', argument " "4"" of type '" "int""'");
+  } 
+  arg4 = static_cast< int >(val4);
+  ecode5 = SWIG_AsVal_int(obj4, &val5);
+  if (!SWIG_IsOK(ecode5)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode5), "in method '" "CPUSolver_getOngoingPartialCurrentLength" "', argument " "5"" of type '" "int""'");
+  } 
+  arg5 = static_cast< int >(val5);
+  {
+    try {
+      result = (double)(arg1)->getOngoingPartialCurrentLength(arg2,arg3,arg4,arg5);
+    } catch (const std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_CPUSolver_getAngularPartialCurrentLength(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  CPUSolver *arg1 = (CPUSolver *) 0 ;
+  int arg2 ;
+  int arg3 ;
+  int arg4 ;
+  int arg5 ;
+  int arg6 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  int val4 ;
+  int ecode4 = 0 ;
+  int val5 ;
+  int ecode5 = 0 ;
+  int val6 ;
+  int ecode6 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  PyObject * obj3 = 0 ;
+  PyObject * obj4 = 0 ;
+  PyObject * obj5 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "cell_from",(char *) "cell_to",(char *) "group",(char *) "azim",(char *) "p", NULL 
+  };
+  double result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOOOOO:CPUSolver_getAngularPartialCurrentLength",kwnames,&obj0,&obj1,&obj2,&obj3,&obj4,&obj5)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_CPUSolver, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "CPUSolver_getAngularPartialCurrentLength" "', argument " "1"" of type '" "CPUSolver *""'"); 
+  }
+  arg1 = reinterpret_cast< CPUSolver * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "CPUSolver_getAngularPartialCurrentLength" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_int(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "CPUSolver_getAngularPartialCurrentLength" "', argument " "3"" of type '" "int""'");
+  } 
+  arg3 = static_cast< int >(val3);
+  ecode4 = SWIG_AsVal_int(obj3, &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "CPUSolver_getAngularPartialCurrentLength" "', argument " "4"" of type '" "int""'");
+  } 
+  arg4 = static_cast< int >(val4);
+  ecode5 = SWIG_AsVal_int(obj4, &val5);
+  if (!SWIG_IsOK(ecode5)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode5), "in method '" "CPUSolver_getAngularPartialCurrentLength" "', argument " "5"" of type '" "int""'");
+  } 
+  arg5 = static_cast< int >(val5);
+  ecode6 = SWIG_AsVal_int(obj5, &val6);
+  if (!SWIG_IsOK(ecode6)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode6), "in method '" "CPUSolver_getAngularPartialCurrentLength" "', argument " "6"" of type '" "int""'");
+  } 
+  arg6 = static_cast< int >(val6);
+  {
+    try {
+      result = (double)(arg1)->getAngularPartialCurrentLength(arg2,arg3,arg4,arg5,arg6);
+    } catch (const std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_CPUSolver_resetOngoingPartialCurrentsLengthArray(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  CPUSolver *arg1 = (CPUSolver *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:CPUSolver_resetOngoingPartialCurrentsLengthArray",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_CPUSolver, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "CPUSolver_resetOngoingPartialCurrentsLengthArray" "', argument " "1"" of type '" "CPUSolver *""'"); 
+  }
+  arg1 = reinterpret_cast< CPUSolver * >(argp1);
+  {
+    try {
+      (arg1)->resetOngoingPartialCurrentsLengthArray();
+    } catch (const std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *_wrap_delete_CPUSolver(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   CPUSolver *arg1 = (CPUSolver *) 0 ;
@@ -45275,6 +45503,10 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"CPUSolver_getOngoingPartialCurrent", (PyCFunction) _wrap_CPUSolver_getOngoingPartialCurrent, METH_VARARGS | METH_KEYWORDS, NULL},
 	 { (char *)"CPUSolver_getAngularPartialCurrent", (PyCFunction) _wrap_CPUSolver_getAngularPartialCurrent, METH_VARARGS | METH_KEYWORDS, NULL},
 	 { (char *)"CPUSolver_resetOngoingPartialCurrentsArray", _wrap_CPUSolver_resetOngoingPartialCurrentsArray, METH_VARARGS, NULL},
+	 { (char *)"CPUSolver_getReferencePartialCurrentsLength", (PyCFunction) _wrap_CPUSolver_getReferencePartialCurrentsLength, METH_VARARGS | METH_KEYWORDS, NULL},
+	 { (char *)"CPUSolver_getOngoingPartialCurrentLength", (PyCFunction) _wrap_CPUSolver_getOngoingPartialCurrentLength, METH_VARARGS | METH_KEYWORDS, NULL},
+	 { (char *)"CPUSolver_getAngularPartialCurrentLength", (PyCFunction) _wrap_CPUSolver_getAngularPartialCurrentLength, METH_VARARGS | METH_KEYWORDS, NULL},
+	 { (char *)"CPUSolver_resetOngoingPartialCurrentsLengthArray", _wrap_CPUSolver_resetOngoingPartialCurrentsLengthArray, METH_VARARGS, NULL},
 	 { (char *)"delete_CPUSolver", _wrap_delete_CPUSolver, METH_VARARGS, NULL},
 	 { (char *)"CPUSolver_swigregister", CPUSolver_swigregister, METH_VARARGS, NULL},
 	 { (char *)"VACUUM_swigconstant", VACUUM_swigconstant, METH_VARARGS, NULL},

@@ -7105,6 +7105,18 @@ class CPUSolver(Solver):
 
     def resetOngoingPartialCurrentsArray(self):
         return _openmoc.CPUSolver_resetOngoingPartialCurrentsArray(self)
+
+    def getReferencePartialCurrentsLength(self, cell_from, cell_to, index):
+        return _openmoc.CPUSolver_getReferencePartialCurrentsLength(self, cell_from, cell_to, index)
+
+    def getOngoingPartialCurrentLength(self, index, group, azim, p):
+        return _openmoc.CPUSolver_getOngoingPartialCurrentLength(self, index, group, azim, p)
+
+    def getAngularPartialCurrentLength(self, cell_from, cell_to, group, azim, p):
+        return _openmoc.CPUSolver_getAngularPartialCurrentLength(self, cell_from, cell_to, group, azim, p)
+
+    def resetOngoingPartialCurrentsLengthArray(self):
+        return _openmoc.CPUSolver_resetOngoingPartialCurrentsLengthArray(self)
     __swig_destroy__ = _openmoc.delete_CPUSolver
     __del__ = lambda self: None
 CPUSolver_swigregister = _openmoc.CPUSolver_swigregister

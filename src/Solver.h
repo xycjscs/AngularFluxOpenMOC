@@ -154,10 +154,12 @@ protected:
   
   /** The reference partial currents for each group and each cell-cell couple*/
   double** _reference_partial_currents;
+  double** _reference_partial_currents_length;
   int* _current_start_row_index; // which index the currents in ref_partial_currents start for each cell_from 
   int* _current_column_index;    // which cell each element in ref_partial_currents is going to
   double** _previous_partial_currents;  // partial currents in previous transport sweep
   double** _ongoing_partial_currents;   // partial currents in ongoing transport sweep
+  double** _ongoing_partial_currents_length;
   double** _swap_partials;              // swap variable to swap the two previous ones after each transport sweep
 
   
@@ -201,6 +203,7 @@ protected:
   
   /* My DF Stuff */
   virtual void resetOngoingPartialCurrentsArray() = 0;
+  virtual void resetOngoingPartialCurrentsLengthArray() = 0;
   
 
 public:

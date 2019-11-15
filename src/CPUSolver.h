@@ -111,6 +111,11 @@ public:
   double getOngoingPartialCurrent(int index, int group, int azim, int p);
   double getAngularPartialCurrent(int cell_from, int cell_to, int group, int azim, int p);
   void resetOngoingPartialCurrentsArray(); 
+  
+  double* getReferencePartialCurrentsLength(int cell_from, int cell_to, int* index);
+  double getOngoingPartialCurrentLength(int index, int group, int azim, int p);
+  double getAngularPartialCurrentLength(int cell_from, int cell_to, int group, int azim, int p);
+  void resetOngoingPartialCurrentsLengthArray(); 
   //   _track_generator->getGeometry()->matchFSRstoCells();
 };
 
